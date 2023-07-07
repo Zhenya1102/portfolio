@@ -1,0 +1,26 @@
+.header__nav {
+    align-self: center;
+}
+.header__list {
+    display: flex;
+    align-items: center;
+    column-gap: 45px;
+    flex-wrap: wrap;
+    row-gap: 20px;
+}
+.header__link {
+    font-family: 'DM Sans' ,sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 0.77;
+    transition: transform 0.3s ease 0s;
+}
+.header__link:hover {
+    transform: scale(1.1, 1.1);
+}
+.header__link a {
+    transition: color 0.3s ease 0s;
+}
+.header__link a:hover {
+    color: #fff;
+}
