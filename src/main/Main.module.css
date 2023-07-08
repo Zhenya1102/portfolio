@@ -1,3 +1,7 @@
 .main {
     flex: 1 1 auto;
+    margin-top: 320px;
+}
+.main__container {
+
 }

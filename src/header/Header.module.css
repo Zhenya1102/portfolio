@@ -18,7 +18,17 @@
     column-gap: 20px;
 }
 
-.header__item {
+.header__items {
     display: flex;
     column-gap: 50px;
 }
+
+@media (max-width: 850px) {
+    .header__items {
+        position: absolute;
+        top: -100%;
+        left: 0;
+    }
+}
+
+

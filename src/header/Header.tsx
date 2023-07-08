@@ -3,6 +3,7 @@ import style from './Header.module.css'
 import {Nav} from './nav/Nav';
 import {Logo} from './logo/Logo';
 import {SocialIcon} from './social-icon/SocialIcon';
+import {BurgerMenu} from './BurgerMenu/BurgerMenu';
 
 
 export const Header = () => {
@@ -11,10 +12,11 @@ export const Header = () => {
             <div className={style.header__container}>
                 <div className={style.header__body}>
                     <Logo/>
-                    <div className={style.header__item}>
+                    <div className={style.header__items}>
                         <Nav/>
                         <SocialIcon/>
                     </div>
+                    <BurgerMenu/>
                 </div>
             </div>
         </header>
