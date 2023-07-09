@@ -2,6 +2,18 @@
     flex: 1 1 auto;
     margin-top: 320px;
 }
+@media (max-width: 1120px) {
+    .main {
+        margin-top: 220px;
+    }
+}
+@media (max-width: 850px) {
+    .main {
+        margin-top: 160px;
+    }
+}
 .main__container {
 
 }
+
+
