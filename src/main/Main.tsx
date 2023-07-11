@@ -1,6 +1,7 @@
 import React from 'react';
 import style from './Main.module.css'
-import {Home} from './about/Home';
+import {Home} from './home/Home';
+import {About} from './about/About';
 
 
 export const Main = () => {
@@ -8,6 +9,7 @@ export const Main = () => {
         <main className={style.main}>
             <div className={style.main__container}>
                 <Home/>
+                {/*<About/>*/}
             </div>
         </main>
     );
