@@ -1,0 +1,16 @@
+.text {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+@media (max-width: 840px) {
+    .text {
+        font-size: 16px;
+    }
+}
+@media (max-width: 540px) {
+    .text {
+        font-size: 15px;
+    }
+}

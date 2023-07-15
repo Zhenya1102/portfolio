@@ -1,6 +1,22 @@
 .main__body {
     display: flex;
     justify-content: space-between;
+    margin-bottom: 330px;
+}
+@media (max-width: 1120px) {
+    .main__body {
+        margin-bottom: 200px;
+    }
+}
+@media (max-width: 840px) {
+    .main__body {
+        margin-bottom: 150px;
+    }
+}
+@media (max-width: 540px) {
+    .main__body {
+        margin-bottom: 80px;
+    }
 }
 @media (max-width: 840px) {
     .main__body {
@@ -20,10 +36,12 @@
     flex-direction: column;
     color: #D9D9D9;
     font-size: 58px;
-    font-weight: 700;
     line-height: 1.21;
     letter-spacing: -1px;
     align-self: center;
+}
+.main__title span {
+    font-weight: 700;
 }
 .main__title_smiley {
     display: inline-block;

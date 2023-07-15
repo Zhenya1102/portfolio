@@ -2,6 +2,8 @@ import React from 'react';
 import style from './Main.module.css'
 import {Home} from './home/Home';
 import {About} from './about/About';
+import {Skills} from './skills/Skills';
+import {Project} from './project/Project';
 
 
 export const Main = () => {
@@ -9,7 +11,9 @@ export const Main = () => {
         <main className={style.main}>
             <div className={style.main__container}>
                 <Home/>
-                {/*<About/>*/}
+                <About/>
+                <Skills/>
+                <Project/>
             </div>
         </main>
     );

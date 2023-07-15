@@ -1,23 +1,34 @@
-.about {
+.project {
     margin-bottom: 200px;
 }
 @media (max-width: 1120px) {
-    .about {
+    .project {
         margin-bottom: 170px;
     }
 }
 @media (max-width: 840px) {
-    .about {
+    .project {
         margin-bottom: 120px;
     }
 }
 @media (max-width: 540px) {
-    .about {
+    .project {
         margin-bottom: 60px;
     }
 }
-.about__body {
+.project__body {
     display: flex;
     flex-direction: column;
-    row-gap: 38px;
+    row-gap: 40px;
+}
+.project__cards {
+    display: flex;
+    column-gap: 50px;
+    row-gap: 65px;
+    flex-wrap: wrap;
+}
+@media (max-width: 540px) {
+    .project__cards {
+        row-gap: 30px;
+    }
 }
