@@ -1,0 +1,23 @@
+.contacts {
+    margin-bottom: 200px;
+}
+@media (max-width: 1120px) {
+    .contacts {
+        margin-bottom: 170px;
+    }
+}
+@media (max-width: 840px) {
+    .contacts {
+        margin-bottom: 120px;
+    }
+}
+@media (max-width: 540px) {
+    .contacts {
+        margin-bottom: 60px;
+    }
+}
+.contacts__body {
+    display: flex;
+    flex-direction: column;
+    row-gap: 40px;
+}
