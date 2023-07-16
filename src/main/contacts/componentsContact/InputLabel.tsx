@@ -19,6 +19,7 @@ export const InputLabel = (props:InputLabelProps) => {
             <input
                 type={props.type}
                 id={props.id}
+                autoComplete='on'
                 // value={'Name'}
                 // name={'Name'}
                 required

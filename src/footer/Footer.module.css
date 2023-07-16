@@ -1,3 +1,44 @@
 .footer {
 
 }
+.footer__container {
+    display: flex;
+    flex-direction: column;
+}
+.footer__body {
+    display: flex;
+}
+.footer__contacts {
+    display: flex;
+}
+.footer__list {
+    display: flex;
+}
+.footer__icons {
+    display: flex;
+    column-gap: 20px;
+}
+@media (max-width: 850px) {
+    .footer__icons {
+        justify-content: center;
+        column-gap: 40px;
+    }
+}
+.footer__icon {
+    width: 30px;
+    height: 30px;
+    transition: transform 0.3s ease 0s;
+}
+@media (max-width: 850px) {
+    .header__icon {
+        width: 50px;
+        height: 50px;
+    }
+}
+.footer__icon:hover {
+    transform: scale(1.2, 1.2);
+}
+img {
+    width: 100%;
+    object-fit: cover;
+}
