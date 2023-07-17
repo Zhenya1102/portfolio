@@ -14,7 +14,7 @@ export const Footer = () => {
                     </div>
                     <div className={style.footer__contacts}>
                         <ul className={style.footer__list}>
-                            <li><a href="tel:+375333514511">+375333514511</a></li>
+                            <li><a href="tel:+375333514511">+375 33 6314511</a></li>
                             <li><a href="mailto:luzhanskizhenya@gmail.com">luzhanskizhenya@gmail.com</a></li>
                         </ul>
                         <div className={style.footer__icons}>
@@ -23,7 +23,7 @@ export const Footer = () => {
                         </div>
                     </div>
                 </div>
-                <div>Designed in 2023</div>
+                <div className={style.footer__label}>Developed by Zhenya Luzhanski in 2023</div>
             </div>
         </footer>
     );

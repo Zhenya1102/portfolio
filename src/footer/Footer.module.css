@@ -7,12 +7,58 @@
 }
 .footer__body {
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 42px;
+    border-bottom: 2px solid #42446E;
+    margin-bottom: 60px;
+}
+@media (max-width: 768px) {
+    .footer__body {
+        flex-direction: column;
+        row-gap: 20px;
+        margin-bottom: 30px;
+    }
 }
 .footer__contacts {
     display: flex;
+    align-items: center;
+    column-gap: 48px;
+}
+@media (max-width: 768px) {
+    .footer__contacts {
+        justify-content: space-between;
+        width: 100%;
+        flex-wrap: wrap;
+        row-gap: 30px;
+    }
+}
+@media (max-width: 626px) {
+    .footer__contacts {
+        justify-content: center;
+    }
 }
 .footer__list {
     display: flex;
+    column-gap: 40px;
+    font-family: DM Sans, sans-serif;
+    font-size: 18px;
+    line-height: 144.444%;
+}
+@media (max-width: 768px) {
+    .footer__list  {
+        justify-content: center;
+        flex-wrap: wrap;
+        row-gap: 20px;
+    }
+}
+.footer__list li {
+    transition: all 0.3s ease 0s;
+}
+.footer__list li:hover {
+    color: #CCCCCC;
+    text-decoration: underline;
+    transform: scale(1.1, 1.1);
 }
 .footer__icons {
     display: flex;
@@ -30,7 +76,7 @@
     transition: transform 0.3s ease 0s;
 }
 @media (max-width: 850px) {
-    .header__icon {
+    .footer__icon {
         width: 50px;
         height: 50px;
     }
@@ -41,4 +87,34 @@
 img {
     width: 100%;
     object-fit: cover;
+}
+.footer__logo {
+    background-image: linear-gradient(to bottom, rgba(0, 192, 253, 1), rgba(231, 15, 170, 1));
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    flex-direction: column;
+    font-size: 24px;
+    z-index: 2;
+}
+span {
+    font-weight: 500;
+}
+span:last-child {
+    align-self: center;
+}
+.footer__label {
+    text-align: center;
+    padding-bottom: 66px;
+    color: #595e96;
+    font-weight: 500;
+    font-size: 18px;
+}
+@media (max-width: 768px) {
+    .footer__label {
+        padding-bottom: 33px;
+        font-size: 13px;
+    }
 }
