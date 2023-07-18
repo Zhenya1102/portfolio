@@ -6,6 +6,7 @@ body {
   font-size: 18px;
   color: #A7A7A7;
   background-color: #191919;
+  scroll-behavior: smooth;
 }
 
 [class*="__container"] {

@@ -14,9 +14,13 @@ import image10 from './img/10.svg';
 import image11 from './img/11.svg';
 import image12 from './img/12.svg';
 
-export const Skills = () => {
+
+type SkillsPropsType = {
+    id:string
+}
+export const Skills = (props:SkillsPropsType) => {
     return (
-        <div className={style.skills}>
+        <div className={style.skills} id={props.id}>
             <div className={style.skills__body}>
                 <BlockTitle title={'Skills'} subTitle={'Technologies I work with'}/>
                 <ul className={style.skills__icons}>

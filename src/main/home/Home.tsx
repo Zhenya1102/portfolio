@@ -2,8 +2,10 @@ import React from 'react';
 import style from './Home.module.css'
 import image from './image/01.jpg';
 
-
-
+//
+// type HomePropsType = {
+//     id:string
+// }
 
 export const Home = () => {
     return (

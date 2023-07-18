@@ -4,11 +4,13 @@ import {BlockTitle} from '../componets/BlockTitle';
 import {Form} from './Form';
 
 
+type ContactsPropsType = {
+    id:string
+}
 
-
-export const Contacts = () => {
+export const Contacts = (props:ContactsPropsType) => {
     return (
-        <div className={style.contacts}>
+        <div className={style.contacts} id={props.id}>
             <div className={style.contacts__body}>
                 <BlockTitle title={'Contact'} subTitle={'Here you can find all my contacts'}/>
                 <div className={style.contacts__form}>

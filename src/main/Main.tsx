@@ -7,15 +7,24 @@ import {Project} from './project/Project';
 import {Contacts} from './contacts/Contacts';
 
 
+
 export const Main = () => {
     return (
-        <main className={style.main}>
+        <main className={style.main}  id="home">
             <div className={style.main__container}>
                 <Home/>
-                <About/>
-                <Skills/>
-                <Project/>
-                <Contacts/>
+                <About
+                    id="about"
+                />
+                <Skills
+                    id="skills"
+                />
+                <Project
+                    id="project"
+                />
+                <Contacts
+                    id="contacts"
+                />
             </div>
         </main>
     );

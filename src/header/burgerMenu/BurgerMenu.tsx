@@ -1,12 +1,15 @@
 import React from 'react';
 import style from './BurgerMenu.module.css'
 
-
-export const BurgerMenu = ({open, setOpen}: any) => {
+type PropsTypeBurgerMenu = {
+    setOpen: () => void
+    open: boolean
+}
+export const BurgerMenu = ({open,setOpen}: PropsTypeBurgerMenu) => {
 
 
     const onClickBurgerMenuHandler = () => {
-        setOpen(!open);
+        setOpen()
     }
     return <button
         className={`${style.burger_menu} ${open? style.menu_open : ''}`} onClick={onClickBurgerMenuHandler}>

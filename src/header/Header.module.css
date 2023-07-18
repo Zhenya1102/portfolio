@@ -1,6 +1,7 @@
 
 .header {
-    position: absolute;
+    background-color: #191919;
+    position: fixed;
     top: 0;
     left: 0;
     width: 100%;
@@ -41,7 +42,7 @@
         padding: 130px 15px 30px;
         background-color: #191919;
         flex-direction: column;
-        transition: left 0.3s ease 0s;
+        transition: left 0.5s ease 0s;
         row-gap: 50px;
     }
     .header_menu_open_items::before {
@@ -52,15 +53,17 @@
         left: 0;
         background-color: #191919;
         min-height: 90px;
-        transition: left 0.3s ease 0s;
+        transition: left 0.5s ease 0s;
     }
     .header_menu_close_items {
+        background-color: #191919;
         position: fixed;
         overflow: auto;
+        height: 100%;
         width: 100%;
         top: 0;
         left: -100%;
-        transition: left 0.2s ease 0s;
+        transition: left 1s ease 0s;
         flex-direction: column;
         padding: 130px 15px 30px;
         row-gap: 50px;

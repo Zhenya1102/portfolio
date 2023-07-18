@@ -9,9 +9,13 @@ import image4 from './img/04.jpg';
 import image5 from './img/05.jpg';
 import image6 from './img/06.jpg';
 
-export const Project = () => {
+type ProjectPropsType = {
+    id:string
+}
+
+export const Project = (props:ProjectPropsType) => {
     return (
-        <div className={style.project}>
+        <div className={style.project} id={props.id}>
             <div className={style.project__body}>
                 <BlockTitle title={'Projects'} subTitle={'Things I’ve built so far'}/>
             <div className={style.project__cards}>
