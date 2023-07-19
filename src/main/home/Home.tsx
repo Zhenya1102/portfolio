@@ -1,7 +1,7 @@
 import React from 'react';
 import style from './Home.module.css'
-import image from './image/01.jpg';
-
+import imageJpg from './image/01.jpg';
+import imageWebp from './image/01.webp'
 //
 // type HomePropsType = {
 //     id:string
@@ -17,7 +17,11 @@ export const Home = () => {
                 <span>I am a Frontend Developer</span>
             </h1>
             <div className={style.main__photo}>
-                <img src={image} alt="my photo"/>
+                <picture>
+                    <source srcSet={imageWebp} type='image/webp'/>
+                    <img src={imageJpg} alt="My photo"/>
+                </picture>
+
             </div>
         </div>
     );
