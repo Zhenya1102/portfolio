@@ -25,7 +25,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    gap: 15px;
+    gap: 20px;
     flex-wrap: wrap;
 }
 .about__photo {
@@ -37,6 +37,18 @@
     background-image: linear-gradient(to right, rgba(231, 15, 170, 1), rgba(0, 192, 253, 1));
     box-shadow: 0 -9px 20px 5px rgba(167, 167, 167, 0.3);
 }
+@media (max-width: 1120px) {
+    .about__photo {
+        flex: 0 1 300px;
+        max-height: 300px;
+        min-height: 300px;
+    }
+}
+@media (max-width: 840px) {
+    .about__photo {
+        margin: 0 auto;
+    }
+}
 .about__photo img {
     border-radius: 50%;
     position: absolute;
@@ -45,4 +57,12 @@
     top: 10px;
     left: 10px;
     object-fit: cover;
+}
+@media (max-width: 1120px) {
+    .about__photo img{
+        width: 95%;
+        height: 95%;
+        top: 8px;
+        left: 8px;
+    }
 }
