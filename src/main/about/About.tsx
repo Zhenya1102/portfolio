@@ -2,7 +2,7 @@ import React from 'react';
 import style from './About.module.css'
 import {Text} from '../componets/Text';
 import {BlockTitle} from '../componets/BlockTitle';
-import image from './img/-5235683198636246002_121.jpg'
+import image from './img/01.jpg'
 
 type AboutPropsType = {
     id:string

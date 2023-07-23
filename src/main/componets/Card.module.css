@@ -1,8 +1,9 @@
 .card {
     display: flex;
     flex-direction: column;
-    flex: 0 1 375px;
-    max-height: 567px;
+    flex: 1 1 375px;
+    min-height: 567px;
+    align-self: flex-start;
     border-radius: 20px;
     background: #363636;
     cursor: pointer;
@@ -32,6 +33,11 @@
 }
 
 .card__items {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex: 0 1 330px;
+    cursor: default;
     padding: 27px 28px 25px 30px;
     color: #CCC;
 }

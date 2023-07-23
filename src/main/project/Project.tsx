@@ -20,40 +20,53 @@ export const Project = (props:ProjectPropsType) => {
                 <BlockTitle title={'Projects'} subTitle={'Things I’ve built so far'}/>
             <div className={style.project__cards}>
                 <Card
-                    title={'Project Tile goes here'}
+                    title={'Counter'}
                     img={image1}
-                    text={'This is sample project description random things are here in description This is sample project lorem ipsum generator for dummy content'}
-                    info={'Tech stack : HTML , JavaScript, SASS, React'}
+                    text={'A small project of the counter on the React library, data is written to localStorage, two versions of the counter are made: 1. React / Redux bundle is connected,\n' +
+                        '2. the counter is made using the useState hook'}
+                    info={'Tech stack : HTML, SCC-Modules, React, Redux'}
+                    href={'https://zhenya1102.github.io/counter/'}
+                    hrefCode={'https://github.com/Zhenya1102/counter'}
                 />
                 <Card
                     title={'Project Tile goes here'}
                     img={image2}
                     text={'This is sample project description random things are here in description This is sample project lorem ipsum generator for dummy content'}
                     info={'Tech stack : HTML , JavaScript, SASS, React'}
+                    href={''}
+                    hrefCode={''}
                 />
                 <Card
                     title={'Project Tile goes here'}
                     img={image3}
                     text={'This is sample project description random things are here in description This is sample project lorem ipsum generator for dummy content'}
                     info={'Tech stack : HTML , JavaScript, SASS, React'}
+                    href={''}
+                    hrefCode={''}
                 />
                 <Card
                     title={'Project Tile goes here'}
                     img={image4}
                     text={'This is sample project description random things are here in description This is sample project lorem ipsum generator for dummy content'}
                     info={'Tech stack : HTML , JavaScript, SASS, React'}
+                    href={''}
+                    hrefCode={''}
                 />
                 <Card
                     title={'Project Tile goes here'}
                     img={image5}
                     text={'This is sample project description random things are here in description This is sample project lorem ipsum generator for dummy content'}
                     info={'Tech stack : HTML , JavaScript, SASS, React'}
+                    href={''}
+                    hrefCode={''}
                 />
                 <Card
                     title={'Project Tile goes here'}
                     img={image6}
                     text={'This is sample project description random things are here in description This is sample project lorem ipsum generator for dummy content'}
                     info={'Tech stack : HTML , JavaScript, SASS, React'}
+                    href={''}
+                    hrefCode={''}
                 />
             </div>
             </div>
