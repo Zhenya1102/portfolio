@@ -2,12 +2,10 @@ import React from 'react';
 import style from './Home.module.css'
 import imageJpg from './image/01.jpg';
 import imageWebp from './image/01.webp'
-//
-// type HomePropsType = {
-//     id:string
-// }
+
 
 export const Home = () => {
+
     return (
         <div className={style.main__body}>
             <h1 className={style.main__title}>
@@ -18,11 +16,12 @@ export const Home = () => {
             </h1>
             <div className={style.main__photo}>
                 <picture>
-                    <source srcSet={imageWebp} type='image/webp'/>
+                    <source srcSet={imageWebp} type="image/webp"/>
                     <img src={imageJpg} alt="My photo"/>
                 </picture>
-
             </div>
         </div>
     );
 };
+
+

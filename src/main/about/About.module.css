@@ -21,3 +21,28 @@
     flex-direction: column;
     row-gap: 38px;
 }
+.about__content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+.about__photo {
+    flex: 0 1 400px;
+    max-height: 400px;
+    min-height: 400px;
+    position: relative;
+    border-radius: 50%;
+    background-image: linear-gradient(to right, rgba(231, 15, 170, 1), rgba(0, 192, 253, 1));
+    box-shadow: 0 -9px 20px 5px rgba(167, 167, 167, 0.3);
+}
+.about__photo img {
+    border-radius: 50%;
+    position: absolute;
+    width: 95%;
+    height: 95%;
+    top: 10px;
+    left: 10px;
+    object-fit: cover;
+}
