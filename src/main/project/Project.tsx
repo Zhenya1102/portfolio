@@ -2,7 +2,7 @@ import React from 'react';
 import style from './Project.module.css'
 import {BlockTitle} from '../componets/BlockTitle';
 import {Card} from '../componets/Card';
-import image1 from './img/01.jpg';
+import image1 from './img/counter.jpeg';
 import image2 from './img/02.jpg';
 import image3 from './img/03.jpg';
 import image4 from './img/04.jpg';
@@ -24,7 +24,7 @@ export const Project = (props:ProjectPropsType) => {
                     img={image1}
                     text={'A small project of the counter on the React library, data is written to localStorage, two versions of the counter are made: 1. React / Redux bundle is connected,\n' +
                         '2. the counter is made using the useState hook'}
-                    info={'Tech stack : HTML, SCC-Modules, React, Redux'}
+                    info={'Tech stack : HTML, CSS.Modules, React, Redux'}
                     href={'https://zhenya1102.github.io/counter/'}
                     hrefCode={'https://github.com/Zhenya1102/counter'}
                 />
