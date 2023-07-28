@@ -1,21 +1,21 @@
 .main__body {
     display: flex;
     justify-content: space-between;
-    margin-bottom: 330px;
+    margin-bottom: 130px;
 }
 @media (max-width: 1120px) {
     .main__body {
-        margin-bottom: 200px;
+        margin-bottom: 100px;
     }
 }
 @media (max-width: 840px) {
     .main__body {
-        margin-bottom: 150px;
+        margin-bottom: 70px;
     }
 }
 @media (max-width: 540px) {
     .main__body {
-        margin-bottom: 80px;
+        margin-bottom: 0;
     }
 }
 @media (max-width: 840px) {
@@ -26,11 +26,7 @@
         row-gap: 15px;
     }
 }
-@media (max-width: 540px) {
-    .main__body {
-        /*row-gap: 0;*/
-    }
-}
+
 .main__title {
     display: flex;
     flex-direction: column;

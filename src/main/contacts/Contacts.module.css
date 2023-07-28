@@ -1,18 +1,22 @@
 .contacts {
+    padding-top: 200px;
     margin-bottom: 200px;
 }
 @media (max-width: 1120px) {
     .contacts {
+        padding-top: 170px;
         margin-bottom: 170px;
     }
 }
 @media (max-width: 840px) {
     .contacts {
+        padding-top: 120px;
         margin-bottom: 120px;
     }
 }
 @media (max-width: 540px) {
     .contacts {
+        padding-top: 90px;
         margin-bottom: 60px;
     }
 }

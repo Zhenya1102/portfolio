@@ -1,19 +1,19 @@
 .skills {
-    margin-bottom: 200px;
+    padding-top: 200px;
 }
 @media (max-width: 1120px) {
     .skills {
-        margin-bottom: 170px;
+        padding-top: 170px;
     }
 }
 @media (max-width: 840px) {
     .skills {
-        margin-bottom: 120px;
+        padding-top: 120px;
     }
 }
 @media (max-width: 540px) {
     .skills {
-        margin-bottom: 60px;
+        padding-top: 90px;
     }
 }
 .skills__body {
