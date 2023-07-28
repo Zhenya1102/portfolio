@@ -28,6 +28,11 @@
     gap: 20px;
     flex-wrap: wrap;
 }
+@media (max-width: 949px) {
+    .about__content {
+        justify-content: center;
+    }
+}
 .about__photo {
     flex: 0 1 400px;
     max-height: 400px;
