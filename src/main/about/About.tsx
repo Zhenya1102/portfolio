@@ -5,10 +5,10 @@ import {BlockTitle} from '../componets/BlockTitle';
 import image from './img/01.jpg'
 
 type AboutPropsType = {
-    id:string
+    id: string
 }
 
-export const About = (props:AboutPropsType) => {
+export const About = (props: AboutPropsType) => {
     return (
         <div className={style.about} id={props.id}>
             <div className={style.about__body}>
@@ -17,7 +17,8 @@ export const About = (props:AboutPropsType) => {
                     <div className={style.about__photo}>
                         <img src={image} alt="My Photo"/>
                     </div>
-                    <Text text={'The Generator App is an online tool that helps you to export ready-made templates ready to work as your future website. It helps you to combine slides, panels and other components and export it as a set of static files: HTML/CSS/JS. Meet my family. There are five of us – my parents, my elder brother, my baby sister and me. First, meet my mum and dad, Jane and Michael.The Generator App is an online tool that helps you to export ready-made templates ready to work as your future website. It helps you to combine slides, panels and other components and export it as a set of static files: HTML/CSS/JS. Meet my family. There are five of us – my parents, my elder brother, my baby sister and me. First, meet my mum and dad, Jane and Michael.'}/>
+                    <Text
+                        text={'I\'m frontend developer with experience in creating SPA using React, Redux, redux-Toolkit, Axios, React-Router-Dom, TypeScript, JavaScript, SCSS, HTML. I am enthusiastic team player focused on personal growth. Now I am improving my skills in this direction and expanding them with new technologies.'}/>
                 </div>
             </div>
         </div>
