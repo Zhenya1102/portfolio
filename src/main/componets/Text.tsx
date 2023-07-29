@@ -6,8 +6,8 @@ type TextProps = {
 
 export const Text = (props:TextProps) => {
     return (
-        <div>
-            <p className={style.text}>{props.text}</p>
+        <div className={style.text}>
+            <p>{props.text}</p>
             <div>Education</div>
             <div>Belarusian State University</div>
             <div>Human Resources Management/Personnel Administration</div>
