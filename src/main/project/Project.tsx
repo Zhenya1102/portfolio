@@ -3,8 +3,8 @@ import style from './Project.module.css'
 import {BlockTitle} from '../componets/BlockTitle';
 import {Card} from '../componets/Card';
 import image1 from './img/counter.jpeg';
-import image2 from './img/02.jpg';
-import image3 from './img/03.jpg';
+import image2 from './img/landing_anna.jpg';
+import image3 from './img/landing_taon.jpg';
 import image4 from './img/04.jpg';
 import image5 from './img/05.jpg';
 import image6 from './img/06.jpg';
@@ -29,20 +29,20 @@ export const Project = (props:ProjectPropsType) => {
                     hrefCode={'https://github.com/Zhenya1102/counter'}
                 />
                 <Card
-                    title={'Project Tile goes here'}
+                    title={'Concept Landing'}
                     img={image2}
-                    text={'This is sample project description random things are here in description This is sample project lorem ipsum generator for dummy content'}
-                    info={'Tech stack : HTML , JavaScript, SASS, React'}
-                    href={''}
-                    hrefCode={''}
+                    text={'Adaptive layout of a conceptual website for Anna-Volkova, a Gestalt coach and psychologist. Full-screen start block, small animation, pop-up, etc.'}
+                    info={'Tech stack : HTML5, CSS3/SCSS, JS, BEM, FIGMA, WEBPACK, GULP'}
+                    href={'https://zhenya1102.github.io/Anna-Volkova/'}
+                    hrefCode={'https://github.com/Zhenya1102/Anna-Volkova'}
                 />
                 <Card
-                    title={'Project Tile goes here'}
+                    title={'Concept Landing TAON'}
                     img={image3}
-                    text={'This is sample project description random things are here in description This is sample project lorem ipsum generator for dummy content'}
-                    info={'Tech stack : HTML , JavaScript, SASS, React'}
-                    href={''}
-                    hrefCode={''}
+                    text={'Adaptive layout concept site of the Belarusian company "TAON". Implementation: Fullscreen start block, Spollers, Slider-Swiper, etc.'}
+                    info={'Tech stack : HTML5, CSS3/SCSS, JS, BEM, FIGMA, WEBPACK, GULP.'}
+                    href={'https://zhenya1102.github.io/TAON/'}
+                    hrefCode={'https://github.com/Zhenya1102/TAON'}
                 />
                 <Card
                     title={'Project Tile goes here'}
