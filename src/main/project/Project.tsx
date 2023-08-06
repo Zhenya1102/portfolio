@@ -5,7 +5,7 @@ import {Card} from '../componets/Card';
 import image1 from './img/counter.jpeg';
 import image2 from './img/landing_anna.jpg';
 import image3 from './img/landing_taon.jpg';
-import image4 from './img/04.jpg';
+import image4 from './img/clock.jpg';
 import image5 from './img/05.jpg';
 import image6 from './img/06.jpg';
 
@@ -37,20 +37,20 @@ export const Project = (props:ProjectPropsType) => {
                     hrefCode={'https://github.com/Zhenya1102/Anna-Volkova'}
                 />
                 <Card
+                    title={'Clock'}
+                    img={image4}
+                    text={'A small clock project in the React library, React hooks applied: useState, useEffect. CSS modules and styled components approaches are used.'}
+                    info={'HTML, CSS-Modules, Styled-Components, TypeScript, React'}
+                    href={'https://zhenya1102.github.io/clock/'}
+                    hrefCode={'https://github.com/Zhenya1102/clock'}
+                />
+                <Card
                     title={'Concept Landing TAON'}
                     img={image3}
                     text={'Adaptive layout concept site of the Belarusian company "TAON". Implementation: Fullscreen start block, Spollers, Slider-Swiper, etc.'}
                     info={'Tech stack : HTML5, CSS3/SCSS, JS, BEM, FIGMA, WEBPACK, GULP.'}
                     href={'https://zhenya1102.github.io/TAON/'}
                     hrefCode={'https://github.com/Zhenya1102/TAON'}
-                />
-                <Card
-                    title={'Project Tile goes here'}
-                    img={image4}
-                    text={'This is sample project description random things are here in description This is sample project lorem ipsum generator for dummy content'}
-                    info={'Tech stack : HTML , JavaScript, SASS, React'}
-                    href={''}
-                    hrefCode={''}
                 />
                 <Card
                     title={'Project Tile goes here'}
