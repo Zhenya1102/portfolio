@@ -5,7 +5,6 @@ import imageWebp from './image/01.webp'
 
 
 export const Home = () => {
-
     return (
         <div className={style.main__body}>
             <h1 className={style.main__title}>

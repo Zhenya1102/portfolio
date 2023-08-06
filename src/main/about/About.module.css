@@ -41,7 +41,23 @@
     border-radius: 50%;
     background-image: linear-gradient(to right, rgba(231, 15, 170, 1), rgba(0, 192, 253, 1));
     box-shadow:  16px 16px 24px #0a0a0a, -16px -16px 24px #282828;
+    animation: pulse 2s infinite;
 }
+@keyframes pulse {
+    0% {
+        -webkit-box-shadow: 0 0 0 0 rgba(204, 169, 44, 0.4);
+        box-shadow: 0 0 0 0 rgba(204, 169, 44, 0.4);
+    }
+    70% {
+        -webkit-box-shadow: 0 0 0 10px rgba(204, 169, 44, 0);
+        box-shadow: 0 0 0 20px rgba(204, 169, 44, 0);
+    }
+    100% {
+        -webkit-box-shadow: 0 0 0 0 rgba(204, 169, 44, 0);
+        box-shadow: 0 0 0 0 rgba(204, 169, 44, 0);
+    }
+}
+
 @media (max-width: 1120px) {
     .about__photo {
         flex: 0 1 300px;

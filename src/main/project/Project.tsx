@@ -6,7 +6,7 @@ import image1 from './img/counter.jpeg';
 import image2 from './img/landing_anna.jpg';
 import image3 from './img/landing_taon.jpg';
 import image4 from './img/clock.jpg';
-import image5 from './img/05.jpg';
+import image5 from './img/qwery.jpg';
 import image6 from './img/06.jpg';
 
 type ProjectPropsType = {
@@ -53,12 +53,12 @@ export const Project = (props:ProjectPropsType) => {
                     hrefCode={'https://github.com/Zhenya1102/TAON'}
                 />
                 <Card
-                    title={'Project Tile goes here'}
+                    title={'Landing Indonesia'}
                     img={image5}
-                    text={'This is sample project description random things are here in description This is sample project lorem ipsum generator for dummy content'}
+                    text={'Responsive concept Indonesia travel website. Implementation: Fullscreen start block, implementation of spollers on mobile devices, Slider-Swiper, etc.'}
                     info={'Tech stack : HTML , JavaScript, SASS, React'}
-                    href={''}
-                    hrefCode={''}
+                    href={'https://zhenya1102.github.io/QWERy/'}
+                    hrefCode={'https://github.com/Zhenya1102/QWERy'}
                 />
                 <Card
                     title={'Project Tile goes here'}
